@@ -88,6 +88,50 @@ body {
     margin: 0 auto;
     
 }
+/* balance */
+
+.balance {
+padding: 10px 0px;
+}
+.balance__obolochka {
+    display: flex;
+}
+.balance__container {
+    display: flex;
+    background-color: #fff;
+    max-width: 160px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+._container {
+}
+.balance__img i{
+    font-size: 21px;
+}
+.fa-brands {
+}
+.fa-bitcoin {
+}
+.balance__state {
+}
+
+.balance__btn {
+    display: flex;
+    background-color: #fff;
+    max-width: 160px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+._container {
+}
+.balance__link {
+    display: flex;
+}
+
 
 /* page */
 
@@ -107,12 +151,33 @@ padding: 0px 10px 10px 10px;
 }
 .games__column {
     flex: 0 1 25%;
+    padding: 10px 0px;
 }
 .games__item {
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.games__item > *:not(:last-child) {
+   margin-bottom: 8px;
+}
+
 .games__img {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-image: linear-gradient(0deg,rgb(142,108,240) 0%,rgb(101,130,251) 100%);
+        box-shadow: 0 7px 13px #7977f640;
 }
+
+
+
 .games__name {
     font-weight: 700;
 font-size: 12px;
