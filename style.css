@@ -79,11 +79,54 @@ body {
 
 
 /* header */
+.header {
+    padding: 10px 0px;
+}
 .header__container img {
     display: block;
     width: 59px;
     margin: 0 auto;
+    
 }
+
+/* page */
+
+
+/* page-games */
+.page__games {
+}
+.games__container {
+max-width: 350px;
+display: flex;
+flex-wrap: wrap;
+background-color: #fff;
+border-radius: 10px;
+padding: 0px 10px 10px 10px;
+}
+._container {
+}
+.games__column {
+    flex: 0 1 25%;
+}
+.games__item {
+    text-align: center;
+}
+.games__img {
+}
+.games__name {
+    font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+}
+.games__sub-name {
+    font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+color: #ED8E1F;
+}
+
+
+
 
 /* Footer */
 
