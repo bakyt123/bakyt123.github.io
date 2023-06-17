@@ -306,7 +306,7 @@ color: #ecd86b;
 .page__bid {
 }
 .bid {
-    padding: 20px 0;
+    padding: 20px 15px;
 }
 .bid__container {
     display: flex;
